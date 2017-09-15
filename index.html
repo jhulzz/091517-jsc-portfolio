@@ -4,242 +4,294 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-		<title>Bootstrap Activity - September 07 2017</title>
-		
-		<!-- Latest compiled and minified CSS -->
+		<title>JS Cantada - Portfolio</title>
 
+		<!--framework used-->
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-		
 		<link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.css">
-
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
 
-		<!--import Google fonts -->
 
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Playfair+Display" rel="stylesheet">
-
-		
+		<!--Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Advent+Pro:300,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Skranji" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:200,500" rel="stylesheet">		
 	</head>
 
 	<body>
-		 <nav class="navbar navbar-inverse">
-			  <div class="container-fluid">
-			    <div class="navbar-header">
-			      <a class="navbar-brand" href="#">julie c.</a>
-			    </div>
-			    <ul class="nav navbar-nav">
-			      <li class="active"><a href="#">Home</a></li>
-			      <li><a href="#">Portfolio</a></li>
-			      <li><a href="#">Blog</a></li>
-			      <li><a href="#">Contact</a></li>
-			    </ul>
-			  </div><!--container-fluid-->
-		</nav>
+		 <header>
+		 	<div class="container-fluid">
+		 		<div class="row text-center">
+		 			<!-- <img src="./img/female-placeholder.jpg" class="me"> -->
+		 			<img src="./img/pc2.jpg" class="me">
+		 			<p class="header1"><em>julie anne s. cantada</em></p>
+		 			<p>> a web weaver's profile</p>	
+		 		</div>
+		 	</div>
+		 </header>
 
-		<main class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 col-md-12"> 
-					<div class="page-header">
-						<h1>My First Template of Bootstrap</h1>
-						<p>Posted by <span class="glyphicon glyphicon-user"></span> <a href="#">JS</a> on 07 September 2017 <span class="glyphicon glyphicon-time"></span> 04:20 pm</p>
-					</div>
-				</div>
-			</div> <!--/. row Post title-->
 
-			<div class="row">
-				<div class="col-xs-8 col-md-8">
-					<figure class="margin-b-2">
-						<img class="img-responsive" src="http://placehold.it/900x400" alt="Placeholder image">
-					</figure>
-					<figcaption class="margin-t-h">A Placeholder Image</figcaption>
+		 <main>
+		 	<div class="container-fluid">
+		 		
+					<ul id="textintabs" class="nav nav-tabs">
+					  <li class="active"><a data-toggle="tab" href="#home">
+					  	<img src="./img/scientist-woman-24-dark.png"> description</a>
+					  </li>
+					  <li><a data-toggle="tab" href="#workexp">
+					  	<img src="./img/support-24-dark.png"> work experience</a>
+					  </li>
+					  <li><a data-toggle="tab" href="#techskills">
+					  	<img src="./img/speedometer-24-dark.png"> technical skills</a>
+					  </li>
+					  <li><a data-toggle="tab" href="#portfolio"> 
+					  	<img src="./img/idea-24-dark.png"> portfolio</a>
+					  </li>
+					  <li><a data-toggle="tab" href="#contact">
+					  	<img src="./img/sms-24-dark.png"> contact</a>
+					  </li>
+					</ul>
+				<div class="containercontent">
 
-					<p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="tab-content">
+					  <div id="home" class="tab-pane fade in active">
+						    <div class="page-header">
+							    <h3 id="timeline">my profile</h3>
+							</div>
+							<div class="container">
+								<p class="tabAbout">
+									<i class="glyphicon glyphicon-thumbs-up"></i><span> 16 years of work experience in IT and Operations; </span><br>
+									<i class="glyphicon glyphicon-thumbs-up"></i><span> Has full cycle experience in setting up business operations in the Philippines;</span> <br>
+									<i class="glyphicon glyphicon-thumbs-up"></i><span> Has covered overall tasks such as payroll, banking transactions, day-to-day business activities, troubleshooting, and project management; </span><br>
+									<i class="glyphicon glyphicon-thumbs-up"></i><span> Handled business process improvement projects; Proficient in MS Office, and knowledgeable in Photoshop, HTML, HTML5, CSS, Javascript, WordPress, PHP, mySQL</span><br>
+								</p>
+							</div>
 
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur.</p>
-
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-					<hr>
-				
-						<h3>Comments</h3>
-					
-							<div class="well">
-								<div class="media">
-									<div class="media-left">
-										<img src="https://placehold.it/70x70" alt="Image Placeholder">
+							<div class="container">
+								<div class="row">
+									<div class="col-xs-12">
+										<i class="fa fa-vcard-o"></i> Name: Julie Cantada <br>
+									
+										<i class="glyphicon glyphicon-education"></i>
+										Education: BS in Computer Science, AMA Computer University <br>
 									</div>
-									<div class="media-body">
-										<h4><a href="#">John Smith</a></h4>
-										<p><a href="#"></a>September 7, 2017 4:51 PM</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-										<button class="btn btn-xs btn-success"><span class="btn btn-xs btn-success glyphicon glyphicon-thumbs-up"></span>Upvote</button>
-										<button class="btn btn-xs btn-danger"><span class="btn btn-xs btn-danger glyphicon glyphicon-thumbs-down"></span>Downvote</button>
-										<button class="btn btn-xs btn-default"><span class="btn btn-xs btn-default glyphicon glyphicon-comment"></span>Reply</button>
-									</div>
-								</div>	
-							</div> <!--well-->
+								</div>
 
-							<div class="well">
-								<div class="media">
-									<div class="media-left">
-										<img src="https://placehold.it/70x70" alt="Image Placeholder">
-									</div>
-									<div class="media-body">
-										<h4><a href="#">Kevin Durant</a></h4>
-										<p><a href="#"></a>September 7, 2017 4:51 PM</p>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-										<button class="btn btn-xs btn-success"><span class="btn btn-xs btn-success glyphicon glyphicon-thumbs-up"></span>Upvote</button>
-										<button class="btn btn-xs btn-danger"><span class="btn btn-xs btn-danger glyphicon glyphicon-thumbs-down"></span>Downvote</button>
-										<button class="btn btn-xs btn-default"><span class="btn btn-xs btn-default glyphicon glyphicon-comment"></span>Reply</button>
-									</div>
-								</div>	
-							</div> <!--well-->
+							</div>
+						  
+					 </div><!--/.About content-->				    
+				   
+					  <div id="workexp" class="tab-pane fade">
+					    	<div class="container">
+							  <div class="page-header">
+							    <h3 id="timeline">my work adventures</h3>
+							  </div>
+							  <ul class="timeline">
+							    <li>
+								     <div class="timeline-badge">
+								     	<i class="glyphicon glyphicon-hand-left"></i>
+								     </div>
+								      <div class="timeline-panel">
+								        <div class="timeline-heading">
+								          <h4 class="timeline-title">Technical Project Manager</h4>
+								          <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> FREELANCE 2015-Present</small></p>
+								        </div>
+								        <div class="timeline-body">
+								          <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+								          Handles social media accounts for digital marketing and online promotion.</p>
+								          <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> Consultant for internal business systems of companies and/or small business owners.</p>
+								        </div>
+								      </div>
+							    </li>
+							    <li class="timeline-inverted">
+								      <div class="timeline-badge danger">
+								      	<i class="glyphicon glyphicon-hand-right"></i>
+								      </div>
+								      <div class="timeline-panel">
+								        <div class="timeline-heading">
+								          <h4 class="timeline-title">Customer Service Department Supervisor</h4>
+								          <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> REMAX INTERNATIONAL, INC. 2013-2015</small></p>
+								        </div>
+								        <div class="timeline-body">
+									          <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+									          Managed a team of seven composed of pre-sales and post-sales personnel. Operated end-to-end internal and external customer concerns.</p>
+									          <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> Improved internal processes that contributed to cost savings of the company</p>
+								        </div>
+								      </div>
+							    </li>
+							    <li>
+								      <div class="timeline-badge">
+								      	<i class="glyphicon glyphicon-hand-left"></i>
+								      </div>
+								      <div class="timeline-panel">
+								        <div class="timeline-heading">
+								          <h4 class="timeline-title">Country Support Product Specialist</h4>
+								          <p><small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> HP PHILIPPINES via Strategic Networks Inc. 2009-2013</small></p>
+								        </div>
+								        <div class="timeline-body">
+								          	  <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> 
+									          Implemented processes that helped the whole PH team reach the metrics in a very cost effective way; Responsible for elevating cases to L2 Regional Supports and reports to APJ Account Managers.</p>
+									          <p><small class="text muted"><i class="glyphicon glyphicon-check"></i></small> Facilitated technical trainings on servicing HP Desktops, Laptops, RPOS, Tablets, Digital Signage Displays to HP authorized service engineers nationwide.</p>
+								        </div>
+								      </div>
+							    </li>
+							    
+							  </ul>
+							</div>
 
-							<hr>
-							<h3>Leave a Comment</h3>
-							<p>Please keep in mind that comments are moderated and rel="nofollow" is in use. So, please do not use a spammy keyword or a domain as your name, or else it will be deleted. Thank you!</p>
 
-							<div class="well">
-								<form>
+
+
+
+					  </div><!--/.Work Experience content-->
+
+
+					  <div id="techskills" class="tab-pane fade">
+						    <div class="page-header">
+							    <h3 id="timeline">my skillset</h3>
+							</div>
+
+							
+
+					  <div class="container">
+					  	<div class="row">
+					  		<div class="col-xs-12 col-md-6 text-center">
+					  			
+					  			<p>HTML5</p>
+								<div class="containerTech">
+	  								<div class="skills html">70%</div>
+								</div>
+
+								<p>CSS3</p>
+								<div class="containerTech">
+	  								<div class="skills css">50%</div>
+								</div>
+
+								<p>JS</p>
+								<div class="containerTech">
+	  								<div class="skills js">25%</div>
+								</div>
+
+								<p>PHP</p>
+								<div class="containerTech">
+	  								<div class="skills php">25%</div>
+								</div>
+
+								<p>Basic troubleshooting</p>
+								<div class="containerTech">
+	  								<div class="skills pct">75%</div>
+								</div>
+
+								<p>MS Office</p>
+								<div class="containerTech">
+	  								<div class="skills maccess">60%</div>
+								</div>
+					  		</div>
+
+					  		<div class="col-xs-12 col-md-6">
+						  		<img src="./img/250logo.png" class="img-responsive imglogo">
+					  		</div>
+
+					  	</div>
+					  </div>
+
+					  </div><!--/.Tech Skills content-->
+
+					   <div id="portfolio" class="tab-pane fade">
+						    <div class="page-header">
+							    <h3 id="timeline">working sites</h3>
+							</div>
+						<div class="container">
+					  		<div class="row">
+					  			    <div class="col-xs-12 col-md-6">
+					  			    	
+									    <figure>
+									    	<a href="https://jhulzz.github.io/b5dc-csp1-cantadasports/" target="_blank">
+									    		<img class="img-responsive imageport" id="csp1-img" src="./img/csc-shop.png"></a>
+									    	<figcaption>
+									    		<span class="img-cap"><a href="https://jhulzz.github.io/b5dc-csp1-cantadasports/" target="_blank">Capstone Project 1</a></span> - <a href="http://www.tuitt.com/" target="_blank">Tuitt PH</a>
+									    		<br>Copyright &copy; 2017 Cantada Sports Center <br>
+									    		URL: <a href="http://tinyurl.com/jollysports" target="_blank">tinyurl.com/jollysports</a>
+									    	</figcaption>
+									    </figure>
+
+								  	</div>
+								    <div class="col-xs-12 col-md-6">
+								    	<figure>
+									    	<a href="http://photosoup.bitballoon.com/" target="_blank">
+									    		<img class="img-responsive" id="csp1-img" src="./img/psoup-ref.png"></a>
+									    	<figcaption>
+									    		<span class="img-cap">My Photography Group</span><br> Copyright &copy;2017 JSC <br>
+									    		URL: <a href="http://photosoup.bitballoon.com/" target="_blank">photosoup.bitballoon.com</a></figcaption>
+									    </figure>
+									</div>
+						</div> <!-- /.row-->
+					</div> <!-- /.container-->
+				  </div><!--/.Portfolio content-->
+
+					  <div id="contact" class="tab-pane fade">
+						    <div class="page-header">
+							    <h3 id="timeline">let's talk!</h3>
+							</div>
+
+						    <div class="container">
+					  			<div class="row">
+					  				<div class="col-xs-12 col-md-6">
+						    	    <form action="mailto:jcantada@gmail.com" method="post" enctype="text/plain">
 									<div class="form-group">
-										<label>Name: </label>
-										<input type="text" class="form-control" placeholder="Enter your name">
-									</div>
-									<div class="form-group">
-										<label>Email: </label>
-										<input type="email" class="form-control" placeholder="Enter your email address">
-										<p class="help-block">Make sure you use a valid email address or else.</p>
-									</div>
+										  							
+											<div><label>Name:</label>
+											<input class="form-control" type="name" name="name"></div>
 
-									<div class="form-group"> 
-										<label>Comment:</label>
-										<textarea class="form-control"></textarea>	
-									</div>	
-									<button id = "submit1" name="submit1" type="submit" class="btn btn-success">Submit</button>
-									<!-- <button id = "submit2" name="submit2" type="submit" class="btn btn-info">Upload</button> -->
+											<div><label>Company Name:</label>
+											<input class="form-control" type="company" name="company"></div>
+
+											<div><label>Phone:</label>
+											<input class="form-control" type="phone" name="phone"></div>
+
+											<div><label>Email Address:</label>
+											<input class="form-control" type="email" name="emailaddress"></div>
+
+											<div><label>Message:</label></div>
+											<div><textarea class="form-control">Enter message here...</textarea></div>
+
+											<div class="enrollbtn">
+												<input class="btn btn-default btn-md" type="submit" value="Send Message"> <a class="btn btn-default btn-md" href="#" role="button">Clear all Fields</a>
+											</div>
+									</div>
 								</form>
-					</div> <!--well-->
-								<nav>
-									<ul class="pager">
-										<li class="previous">
-											<a href="#">
-											<span class="glyphicon glyphicon-menu-left"></span> Older</a>
-										</li>
-										<li class="next">
-											<a href="#">Newer <span class="glyphicon glyphicon-menu-right">
-											</span></a>
-										</li>
-									</ul>
-								</nav>
+							</div>
+							<div class="col-xs-12 col-md-6">
+								Latest CV: <br>
+								<a href="./assets/cv-jasc.pdf" download><i class="fa fa-download"></i> Download Resume </a><br>
 
-						</div> <!-- /.well -- >
+								<br>Social Media Profiles:<br>
 
-						<hr>
-			</div> <!--row Image-->				
+								<a href="facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp;
+								<a href="linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a> &nbsp;
+								<a href="github.com"><i class="fa fa-github" aria-hidden="true"></i></a>
 
-				
-				
+							</div>
 
-			<!-- sidebar -->
-			<div class = "col-xs-4 col-md-4">
+					  </div><!--/.Contact content-->
 
-				<div class="well">
-					<h3>Search</h3>
-					<form>
-						<div class="input-group">
-							<input type="text" name="" class="form-control">	
-							<span class="input-group-btn">
-								<button type="button" class="btn btn-success">
-									<span class="glyphicon glyphicon-search"></span>
-									<span class="sr-only">Search</span></button>
-							</span>
-						</div>
-					</form>
-				</div> <!-- /.well -->
+					 </div> <!--/.tab content-->
+					</div> <!-- /.containercontent-->
+				</div> <!-- /.container fluid-->
+ 
+		 </main>
 
-				<div class="list-group">
-					<a href="#" class="list-group-item active">Category 1</a>
-					<a href="#" class="list-group-item">Category 2</a>
-					<a href="#" class="list-group-item">Category 3</a>
-				</div>
+		 <footer>
+		 </footer>
 
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3>Sidebar Panel Widget</h3>
-					</div>
-
-					<div class="panel-body">
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-
-				</div> <!-- /.panel -->
-
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3>Sidebar Panel Widget</h3>
-					</div>
-
-					<div class="panel-body">
-						<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-
-				</div> <!-- /.panel -->
-
-			</div> <!-- col-xs-4 col-md-4 -->
-
-		</main> <!--container-fluid-->
-		
-			
-			<footer class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-12 text-center"> 
-						<p>Copyright &copy; JC bootstrap 2017</p>
-					</div>
-				</div>
-			</footer>			
-		
 		<!-- Import jQuery -->
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 		<!-- Latest compiled and minified JS -->
 		<script type="text/javascript" src="./js/bootstrap.js"></script>
+
+		<!-- Font Awesome for Social Media -->
+		<script type="text/javascript" src="https://use.fontawesome.com/63421b52b2.js"></script>
 
 	</body>
 </html>
